@@ -55,3 +55,25 @@ git commit -m "Reestructuracion"
 <!-- Command -->
 
 ---
+
+## REMOTE
+
+<!-- Acciones -->
+
+### Acciones
+
+- Vinculamos con nuevo github
+
+<!-- Acciones -->
+
+<!-- Command -->
+
+### Command
+
+```
+git remote add origin https://github.com/XanderZeroLabs/appifyland.git
+git commit -m "Remote"
+
+<!-- Command -->
+
+---
