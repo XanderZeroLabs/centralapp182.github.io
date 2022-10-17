@@ -77,3 +77,25 @@ git commit -m "Remote"
 <!-- Command -->
 
 ---
+
+## THEME HTML
+
+<!-- Acciones -->
+
+### Acciones
+
+- Extraemos theme en html
+- Acomodamos archivos
+
+<!-- Acciones -->
+
+<!-- Command -->
+
+### Command
+
+```
+git commit -m "Theme Html"
+
+<!-- Command -->
+
+---
