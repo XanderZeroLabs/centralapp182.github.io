@@ -73,6 +73,28 @@ git commit -m "Reestructuracion"
 ```
 git remote add origin https://github.com/XanderZeroLabs/appifyland.git
 git commit -m "Remote"
+```
+
+<!-- Command -->
+
+---
+
+## CLONE (Opcional)
+
+<!-- Acciones -->
+
+### Acciones
+
+- clonamos desde Github dentro de la carpeta ya creada
+
+<!-- Acciones -->
+
+<!-- Command -->
+
+### Command
+
+```
+git clone https://github.com/XanderZeroLabs/appifyland.git .
 
 <!-- Command -->
 
@@ -95,6 +117,29 @@ git commit -m "Remote"
 
 ```
 git commit -m "Theme Html"
+
+<!-- Command -->
+
+---
+
+## BOOTSTRAP
+
+<!-- Acciones -->
+
+### Acciones
+
+- Incluimos Bootstrap
+- Vinculamos
+
+<!-- Acciones -->
+
+<!-- Command -->
+
+### Command
+
+```
+npm install bootstrap
+git commit -m "Bootstrap"
 
 <!-- Command -->
 
