@@ -95,6 +95,7 @@ git commit -m "Remote"
 
 ```
 git clone https://github.com/XanderZeroLabs/appifyland.git .
+```
 
 <!-- Command -->
 
@@ -117,18 +118,19 @@ git clone https://github.com/XanderZeroLabs/appifyland.git .
 
 ```
 git commit -m "Theme Html"
+```
 
 <!-- Command -->
 
 ---
 
-## BOOTSTRAP
+## REACT BOOTSTRAP (Opcional)
 
 <!-- Acciones -->
 
 ### Acciones
 
-- Incluimos Bootstrap
+- Incluimos Bootstrap en version para react que maneja componentes
 - Vinculamos
 
 <!-- Acciones -->
@@ -138,8 +140,35 @@ git commit -m "Theme Html"
 ### Command
 
 ```
-npm install bootstrap
-git commit -m "Bootstrap"
+npm install react-bootstrap bootstrap
+
+git commit -m "React Bootstrap"
+```
+
+<!-- Command -->
+
+---
+
+## CDN BOOTSTRAP (Opcional)
+
+<!-- Acciones -->
+
+### Acciones
+
+- Incluimos Bootstrap en public/index.html
+- desinstalamos react-bootstrap
+- Vinculamos
+
+<!-- Acciones -->
+
+<!-- Command -->
+
+### Command
+
+```
+npm uninstall react-bootstrap bootstrap
+git commit -m "Cdn Bootstrap"
+```
 
 <!-- Command -->
 
