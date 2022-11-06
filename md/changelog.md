@@ -173,3 +173,35 @@ git commit -m "Cdn Bootstrap"
 <!-- Command -->
 
 ---
+
+## DEPENDENCIA BOOTSTRAP (Opcional)
+
+<!-- Acciones -->
+
+### Acciones
+
+- Instalamos Bootstrap como dependencia
+- Comentamos CDN Bootstrap en public/index.html
+
+- Importamon dependencias bootstrap en src/index.js
+    import * as bootstrap from 'bootstrap'
+    import 'bootstrap/dist/css/bootstrap.min.css';
+    import Alert from 'bootstrap/js/dist/alert'
+    import { Tooltip, Toast, Popover } from 'bootstrap'
+
+<!-- Acciones -->
+
+<!-- Command -->
+
+### Command
+
+```
+npm install bootstrap
+npm install @popperjs/core
+
+git commit -m "Dependencia Bootstrap"
+```
+
+<!-- Command -->
+
+---
