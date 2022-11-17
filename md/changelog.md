@@ -205,3 +205,25 @@ git commit -m "Dependencia Bootstrap"
 <!-- Command -->
 
 ---
+
+## HABILITANDO THEME BOOTSTRAP
+
+<!-- Acciones -->
+
+### Acciones
+
+- Conla ultima opcion de configuracion de Bootstrap
+
+<!-- Acciones -->
+
+<!-- Command -->
+
+### Command
+
+```
+git commit -m "Habilitando Theme Bootstrap"
+```
+
+<!-- Command -->
+
+---

@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './core/css/index.css';
+//import './core/css/index.css';
 import App from './core/js/App';
 import reportWebVitals from './core/js/reportWebVitals';
 
-import * as bootstrap from 'bootstrap'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Alert from 'bootstrap/js/dist/alert'
-import { Tooltip, Toast, Popover } from 'bootstrap'
+//import * as bootstrap from 'bootstrap'
+//import 'bootstrap/dist/css/bootstrap.min.css';
+//import Alert from 'bootstrap/js/dist/alert'
+//import { Tooltip, Toast, Popover } from 'bootstrap'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
