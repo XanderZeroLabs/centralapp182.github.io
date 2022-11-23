@@ -1,7 +1,7 @@
 import React from 'react';
 import constants from '../../core/js/constants';
 
-function Feature() {
+function Pasos() {
   return (
     <section className="feature-section-2 pt-65">
       <div className="container">
@@ -35,12 +35,12 @@ function Feature() {
               </div>
               <div className="single-feature">
                 <div className="icon-style feature-icon">
-                  <i className="lni lni-bolt"></i>
+                  <i className="lni lni-money-protection"></i>
                 </div>
                 <div className="content">
                   <h4>Elige un Broker</h4>
                   <p>
-                    Tenemos para ti las mejores opciones, tienes otro pues claro que puedes elegirlo.
+                    Nuestra seleccion galardonada es para ti, tienes otro pues claro que puedes elegirlo.
                   </p>
                 </div>
               </div>
@@ -68,4 +68,4 @@ function Feature() {
   );
 }
 
-export default Feature;
+export default Pasos;

@@ -1,9 +1,18 @@
 const object = {
-  site: ' Colectiva',
-  web:'https://www.colectiva.com',
-  registerLink:'https://app.colectiva.com/register',
-  dev: ' XanderLabs',
-  webDev:'https://www.XanderCode.io',
+
+  //App
+  appName: ' Central',
+  appWeb:'https://www.Centralfx.com',
+  appRegister:'https://app.centralfx.com/register',
+  devName: ' XanderLabs',
+  devWeb:'https://www.XanderCode.io',
+
+  // Header
+  
+  // Footer
+  
+  // Styles
+
 
 };
 

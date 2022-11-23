@@ -2,13 +2,12 @@ import logo from '../../components/img/logo.svg';
 import Preloader from '../../containers/partials/preloader';
 import Header from '../../containers/partials/header';
 
-import Home from '../../containers/sections/home';
+import Inicio from '../../containers/sections/inicio';
 import Clients from '../../containers/sections/clients';
-import Work from '../../containers/sections/work';
-import About from '../../containers/sections/about';
-import Feature from '../../containers/sections/feature';
-import Transaction from '../../containers/sections/transaction';
-import Testimonial from '../../containers/sections/testimonial';
+
+import Pasos from '../../containers/sections/pasos';
+import Planes from '../../containers/sections/planes';
+import Informacion from '../../containers/sections/informacion';
 
 import Top from '../../containers/partials/top';
 import Footer from '../../containers/partials/footer';
@@ -20,12 +19,10 @@ function App() {
       <Preloader />
       <Header />
 
-      <Home />
-
-      <Work />
-      <About />
-      <Feature />
-      <Transaction />
+      <Inicio />
+      <Pasos />
+      <Planes />
+      <Informacion />
 
       <Top />
       <Footer />

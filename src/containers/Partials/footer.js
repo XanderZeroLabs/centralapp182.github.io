@@ -11,16 +11,15 @@ function Footer() {
               <div className='col-xl-6 col-lg-8'>
                 <div className='cta-content-wrapper'>
                   <div className='section-title text-center mb-30'>
-                    <span>Save Your Money</span>
-                    <h1>Get Our Apps</h1>
+                    <span>Su dinero siempre en sus manos</span>
+                    <h1>Descargue su apps</h1>
                     <p>
-                      With impressive interest rates, an app, tools & guides, to
-                      plan, save & invest, Appify is the smartest way.
+                      El mejor beneficio, los costes mas economicos, una comunidad solida y la mejor plataforma de respaldo convierte a {constants.appName} la mejor opcion.
                     </p>
                   </div>
                   <ul className='d-flex flex-wrap justify-content-center'>
                     <li className='m-1'>
-                      <a href='#0'>
+                      <a href='https://play.google.com/store/apps/details?id=net.metaquotes.metatrader5&hl=es_PE&gl=US&pli=1'>
                         <img
                           src='assets/img/hero/download-1.svg'
                           alt='play store'
@@ -28,8 +27,11 @@ function Footer() {
                       </a>
                     </li>
                     <li className='m-1'>
-                      <a href='#0'>
-                        <img src='assets/img/hero/download-2.svg' alt='app store' />
+                      <a href='https://www.metatrader5.com/'>
+                        <img
+                          src='assets/img/hero/download-2.svg'
+                          alt='app store'
+                        />
                       </a>
                     </li>
                   </ul>
@@ -51,10 +53,10 @@ function Footer() {
                       <img src='assets/img/logo/logo-2.svg' alt='logo' />
                     </a>
                   </div>
-                  <h3>Get the future you want</h3>
+                  <h3>El FUTURO que quieres</h3>
                   <p>
-                    We offer great advice, tools and guides to help you plan your
-                    best future for free.
+                    {/* Te ofrecemos excelentes opciones, herramientas y guias para ayudarte a planificar un mejor futuro para ti y los que amas. */}
+                    Una simple decisión puede mejorar tu vida, creando un futuro mejor para ti y los que amas.
                   </p>
                 </div>
               </div>
@@ -64,10 +66,10 @@ function Footer() {
                 <div className='footer-widget'>
                   <h6>Products</h6>
                   <ul className='links'>
-                    <li><a href='#0'>Features</a></li>
-                    <li><a href='#0'>Templates</a></li>
-                    <li><a href='#0'>Pricing</a></li>
-                    <li><a href='#0'>Security</a></li>
+                    <li><a href='#0'>Caracteristicas</a></li>
+                    <li><a href='#0'>Planes</a></li>
+                    <li><a href='#0'>Precios</a></li>
+                    <li><a href='#0'>Seguridad</a></li>
                   </ul>
                 </div>
               </div>
@@ -75,10 +77,10 @@ function Footer() {
                 <div className='footer-widget'>
                   <h6>Company</h6>
                   <ul className='links'>
-                    <li><a href='#0'>About Us</a></li>
-                    <li><a href='#0'>Press & Media</a></li>
-                    <li><a href='#0'>Careers</a></li>
-                    <li><a href='#0'>Ambassadors</a></li>
+                    <li><a href='#0'>Sobre Nosotros</a></li>
+                    <li><a href='#0'>Prensa & Medios</a></li>
+                    <li><a href='#0'>Carrera</a></li>
+                    <li><a href='#0'>Embajadores</a></li>
                   </ul>
                 </div>
               </div>
@@ -86,21 +88,21 @@ function Footer() {
                 <div className='footer-widget'>
                   <h6>Support</h6>
                   <ul className='links'>
-                    <li><a href='#0'>FAQ</a></li>
-                    <li><a href='#0'>Terms & Conditions</a></li>
-                    <li><a href='#0'>Privacy Policy</a></li>
-                    <li><a href='#0'>Customer Stories</a></li>
+                    <li><a href='#0'>Preguntas Frecuentse</a></li>
+                    <li><a href='#0'>Terminos & Condiciones</a></li>
+                    <li><a href='#0'>Politicas de Privacidad</a></li>
+                    <li><a href='#0'>Historias de Clientes</a></li>
                   </ul>
                 </div>
               </div>
               <div className='col-xl-2 col-lg-3 col-md-4 col-sm-6'>
                 <div className='footer-widget'>
-                  <h6>Connect</h6>
+                  <h6>Cantacto</h6>
                   <ul className='links'>
-                    <li><a href='#0'>support@pagebulb.com</a></li>
-                    <li><a href='#0'>+234 903 0000 857</a></li>
+                    <li><a href='#0'>Soporte@Central.com</a></li>
+                    <li><a href='#0'>+591 903 0000 857</a></li>
                   </ul>
-                  <h6 className='mt-20'>Follow Us</h6>
+                  <h6 className='mt-20'>Siguenos</h6>
                   <ul className='socials'>
                     <li>
                       <a href='#0'><i className='lni lni-twitter-filled'></i></a>
@@ -122,9 +124,10 @@ function Footer() {
 
           <div className='copyright-wrapper'>
             <p>
-              by
-              <a rel='nofollow' href='{webDev}'>&nbsp; {constants.dev}</a> para
-              <a rel='nofollow' href='https://afina.io'>&nbsp; {constants.site}</a>
+              Desarrollado por
+              <a rel='nofollow' href='{constants.webDev}'>&nbsp; {constants.devName}</a>
+              &nbsp; para
+              <a rel='nofollow' href='{constants.webApp}'>&nbsp; {constants.appName}</a>
             </p>
           </div>
         </div>

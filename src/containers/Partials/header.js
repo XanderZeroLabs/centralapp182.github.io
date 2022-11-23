@@ -21,25 +21,31 @@ function Header() {
                 <div className="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                   <ul id="nav" className="navbar-nav me-auto">
                     <li className="nav-item">
-                      <a className="page-scroll active" href="#home">Home</a>
+                      <a className="page-scroll active" href="#home">Inicio</a>
                     </li>
                     <li className="nav-item">
                       <a className="page-scroll" href="#features">Features</a>
                     </li>
                     <li className="nav-item">
-                      <a className="page-scroll" href="#about">About</a>
+                      <a className="page-scroll" href="#about">Nosotros</a>
                     </li>
                     <li className="nav-item">
-                      <a className="page-scroll" href="#how">How It Works</a>
+                      <a className="page-scroll" href="#how">Nuestro Trabajo</a>
                     </li>										
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                       <a className="page-scroll" href="#testimonials">Testimonials</a>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
                 <div className="header-btn">
                   <ul className="d-flex align-items-center justify-content-end">
-                    <li><a href={constants.registerLink} className="page-scroll main-btn btn-hover">Register</a></li>
+                    <li>
+                      <a href="ingresa" >INGRESA</a>
+                    </li>
+                    <li>
+                      {/* <a href="ingresa" className="page-scroll main-btn btn-hover">Ingresa</a> */}
+                      <a href={constants.registerLink} className="page-scroll main-btn btn-hover">Registrate</a>
+                    </li>
                   </ul>
                 </div>
               </nav>

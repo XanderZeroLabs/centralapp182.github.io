@@ -1,7 +1,7 @@
 import React from 'react';
 import constants from '../../core/js/constants';
 
-function Transaction() {
+function Informacion() {
   return (
     <section id="how" className="feature-section-1 pt-65 gray-bg-1">
       <div className="container">
@@ -57,4 +57,4 @@ function Transaction() {
   );
 }
 
-export default Transaction;
+export default Informacion;
